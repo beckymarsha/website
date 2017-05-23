@@ -1,0 +1,146 @@
+a:link, a:visited {
+  color: #333333;
+}
+
+a:focus, a:hover {
+     text-decoration: none;
+     color: #bebdbc !important;
+   
+  border-bottom: none;
+}
+
+a:active {
+     text-decoration: none;
+color: #85929E;
+}
+
+body {
+    background-color: #D6DBDF;
+    color: #283747;
+}
+
+.btn-lg  {
+  color: #333333;
+  opacity: 0.88;
+  background-color: #Ffffff;
+  font-size: 200%;
+  font-weight: 500;
+  text-shadow: 0px 1px 1px #999999;
+  
+}
+
+.btn-lg:focus
+{
+  color: #333333;
+  opacity: 0.95;
+  background-color: #Ffffff;
+  font-size: 200%;
+  font-weight: 500;
+  text-shadow: 0px 1px 1px #888888;
+  
+}
+
+.btn-lg:hover
+{
+  color: #333333;
+  opacity: 0.92;
+  background-color: #Ffffff;
+  font-size: 200%;
+  font-weight: 500;
+  text-shadow: 0px .5px .5px #888888;
+box-shadow: 0 0px 10px 0 #888888;
+  
+}
+
+h1 {
+    color: #333333;
+}
+
+
+h2 {
+    color: #333333; 
+}
+
+h3 {
+  color: #333333;
+}
+
+h4 {
+  color: #333333;
+}
+
+h5 {
+  color: #333333;
+}
+
+.header {
+  padding-right: 2% !important;
+   padding-top: 1% !important;
+    padding-bottom: 1% !important;
+  text-align: right;
+}
+
+a {
+  outline: none;
+  text-decoration: none;
+  padding: 2px 1px 0;
+}
+
+
+
+.pull-right {
+            margin-bottom: 5px;
+            margin-right: 5px;
+            margin-top: 0px;
+            padding: 0px;
+        }
+
+.container {
+        background-color: #D6DBDF;
+        max-width: 85%;
+        position: relative;
+        padding-bottom: 4%;
+}
+
+.gray {
+    background-color: #D6DBDF;
+    color: #283747;
+    max-width: 85%;
+}
+
+.white {
+    background-color: #f4f4f4;
+    position: relative;
+    color: #283747;
+    max-width: 85%;
+    margin-bottom: 2%;
+    padding-bottom: 3%;
+ 
+}
+
+.row {
+    background-color: #f4f4f4;
+    position: center;
+    padding-right: 4%;
+    padding-left: 4%;
+    padding-top: 5%
+}
+
+.thumbnailz {
+    position: relative;
+    background-color: #f4f4f4;
+    margin: 0px;
+    padding-left: 2%;
+       padding-right: 2%;
+}
+
+img {
+    position: relative;
+    max-height: 100%;
+    max-width: 100%;
+}
+
+
+
+
+/* trouble  top right bottom left */
