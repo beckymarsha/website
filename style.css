@@ -1,17 +1,17 @@
 a:link, a:visited {
   color: #333333;
+  height: 100%;
 }
 
 a:focus, a:hover {
      text-decoration: none;
      color: #bebdbc !important;
-   
-  border-bottom: none;
+    border-bottom: none;
 }
 
 a:active {
      text-decoration: none;
-color: #85929E;
+    color: #85929E;
 }
 
 body {
@@ -48,8 +48,7 @@ body {
   font-size: 200%;
   font-weight: 500;
   text-shadow: 0px .5px .5px #888888;
-box-shadow: 0 0px 10px 0 #888888;
-  
+  box-shadow: 0 0px 10px 0 #888888;
 }
 
 h1 {
@@ -74,10 +73,10 @@ h5 {
 }
 
 .header {
-  padding-right: 2% !important;
-   padding-top: 1% !important;
+    padding-right: 2% !important;
+    padding-top: 1% !important;
     padding-bottom: 1% !important;
-  text-align: right;
+    text-align: right;
 }
 
 a {
@@ -86,14 +85,12 @@ a {
   padding: 2px 1px 0;
 }
 
-
-
 .pull-right {
-            margin-bottom: 5px;
-            margin-right: 5px;
-            margin-top: 0px;
-            padding: 0px;
-        }
+    margin-bottom: 5px;
+    margin-right: 5px;
+    margin-top: 0px;
+    padding: 0px;
+}
 
 .container {
         background-color: #D6DBDF;
@@ -106,6 +103,7 @@ a {
     background-color: #D6DBDF;
     color: #283747;
     max-width: 85%;
+    padding-bottom: 1% !important;
 }
 
 .white {
@@ -114,8 +112,17 @@ a {
     color: #283747;
     max-width: 85%;
     margin-bottom: 2%;
-    padding-bottom: 3%;
- 
+    padding-bottom: 3%; 
+}
+
+.white2 {
+    background-color: #f4f4f4;
+    position: relative;
+    color: #283747;
+    max-width: 85%;
+    margin-bottom: 1.5% !important;
+    padding-top: .5% !important;
+    padding-bottom: .5% !important;
 }
 
 .row {
@@ -131,7 +138,28 @@ a {
     background-color: #f4f4f4;
     margin: 0px;
     padding-left: 2%;
-       padding-right: 2%;
+    padding-right: 2%;
+}
+
+.thumbnailz .col-sm-12 {
+    position: relative;
+    background-color: #f4f4f4;
+    margin: 0px;
+    padding-left: 2%;
+    padding-right: 2%;
+}
+
+.thumbnailz img {
+        position: relative;
+	-webkit-filter: grayscale(100%);
+	filter: grayscale(100%);
+	-webkit-transition: .3s ease-in-out;
+	transition: .1s ease-in-out;
+}
+.thumbnailz:hover img {
+        position: relative;
+	-webkit-filter: grayscale(0);
+	filter: grayscale(0);
 }
 
 img {
@@ -140,7 +168,16 @@ img {
     max-width: 100%;
 }
 
-
+@media (max-width: 990px) {
+  .col-sm-12, .thumbnailz {
+    padding-bottom: 4%;
+        position: relative;
+  }
+  .row {
+      padding-top: 5% !important;
+      padding-bottom: -1% !important;
+  }
+}
 
 
 /* trouble  top right bottom left */
