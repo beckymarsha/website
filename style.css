@@ -11,7 +11,7 @@ a:link, a:visited {
 a:focus, a:hover {
     cursor:default;
      text-decoration: none;
-     color: #bebdbc !important;
+     color: #9fa4a9 !important;
     border-bottom: none;
     	-webkit-transition: .1s ease-in-out;
 	transition: .1s ease-in-out;
@@ -24,6 +24,7 @@ a:active {
 }
 
 body {
+    cursor: default;
     background-color: #D6DBDF;
     color: #283747;
 }
@@ -78,11 +79,11 @@ h4 {
 }
 
 h5 {
-  color: #333333;
+  color: #c2c7cc;
 }
 
 .header {
-    padding-right: 2% !important;
+    padding-right: 4.5% !important;
     padding-top: 1% !important;
     padding-bottom: 1% !important;
     text-align: right;
@@ -179,7 +180,8 @@ img {
 
 @media (max-width: 990px) {
   .col-sm-12, .thumbnailz {
-    padding-bottom: 4%;
+    padding: 7%;
+    padding-bottom: 5%;
         position: relative;
   }
   .row {
