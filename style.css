@@ -1,15 +1,24 @@
+a {
+    cursor:default;
+}
+
 a:link, a:visited {
+    cursor:default;
   color: #333333;
   height: 100%;
 }
 
 a:focus, a:hover {
+    cursor:default;
      text-decoration: none;
      color: #bebdbc !important;
     border-bottom: none;
+    	-webkit-transition: .1s ease-in-out;
+	transition: .1s ease-in-out;
 }
 
 a:active {
+    cursor:default;
      text-decoration: none;
     color: #85929E;
 }
@@ -153,7 +162,7 @@ a {
         position: relative;
 	-webkit-filter: grayscale(100%);
 	filter: grayscale(100%);
-	-webkit-transition: .3s ease-in-out;
+	-webkit-transition: .1s ease-in-out;
 	transition: .1s ease-in-out;
 }
 .thumbnailz:hover img {
